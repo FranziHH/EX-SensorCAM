@@ -303,6 +303,11 @@ int  averageRbsn=-1;          //a flag for main loop to do averaging
 int  averageRcounter = -1;    //down counter for frame averaging (see 'r');
 unsigned int stdCtimer=3600*1000*24;  //*24hours minimum - use with 'c' comand  (int=32 bit)
 
+// Funktionsprototypen
+void DOr00();
+void grab_ref(int bsn, uint16_t* Sensor666, int pitch, long offset,
+              uint16_t* Sensor_ref, int* brightness, float* ratios);
+
 void startCameraServer();      //cameraInit() seems to initiate TwoWire(1) for CAM internal i2c
 
   // *********************************************************************

@@ -23,6 +23,7 @@ The Arduino IDE is recommended for the sensorCAM and, if used, the connected EX-
 The ESP32-CAM has an Arduino library of software that is needed to enable the camera image manipulation and the WiFi imaging of the railroad.
 In addition, the Processing 4 application is highly desired to enable railroad images to be captured and sensor positions to be located and seen, as the Arduino IDE cannot give visual feedback.
 * https://processing.org/
+* https://processing.org/download
 
 The webserver WiFi images are not a substitute for the Processing 4 utility, as sensorCAM cannot "sense" in webserver mode.
 Specific SensorCAM files are provided for each of the above apps.
