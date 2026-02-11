@@ -1,4 +1,8 @@
 # Video Based Multi Channel Position Sensing Camera
+
+## Forked from https://github.com/DCC-EX/EX-SensorCAM
+Code adapted for editing with vsCode/PlatformIO
+
 ## Introduction
 This single camera is capable of replacing up to 80 detectors/sensors on a model railroad along with their extensive wiring.
 As it is a cheap device, on large railroads, several cameras can be used for adequate coverage. 
